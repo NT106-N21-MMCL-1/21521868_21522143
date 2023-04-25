@@ -1,0 +1,15 @@
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.csproj.AssemblyReference.cache
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.csproj.SuggestedBindingRedirects.cache
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.Client.resources
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.Lab03.resources
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.Login.resources
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.Properties.Resources.resources
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.Server.resources
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.csproj.GenerateResource.cache
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.csproj.CoreCompileInputs.cache
+C:\Users\BaoPC\source\repos\LAB03\LAB03\bin\Debug\LAB03.exe.config
+C:\Users\BaoPC\source\repos\LAB03\LAB03\bin\Debug\LAB03.exe
+C:\Users\BaoPC\source\repos\LAB03\LAB03\bin\Debug\LAB03.pdb
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.exe
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.pdb
+C:\Users\BaoPC\source\repos\LAB03\LAB03\obj\Debug\LAB03.ChatPrivateView.resources
