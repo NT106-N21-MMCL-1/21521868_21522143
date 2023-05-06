@@ -8,3 +8,6 @@ C:\Users\carldesin\Desktop\lab3_cannop\LAB03\bài3\obj\Debug\Bai3.csproj.Generat
 C:\Users\carldesin\Desktop\lab3_cannop\LAB03\bài3\obj\Debug\Bai3.csproj.CoreCompileInputs.cache
 C:\Users\carldesin\Desktop\lab3_cannop\LAB03\bài3\obj\Debug\bài3.exe
 C:\Users\carldesin\Desktop\lab3_cannop\LAB03\bài3\obj\Debug\bài3.pdb
+C:\Users\carldesin\Desktop\lab3_cannop\LAB03\bài3\obj\Debug\bài3.Form1.resources
+C:\Users\carldesin\Desktop\lab3_cannop\LAB03\bài3\obj\Debug\bài3.Form2.resources
+C:\Users\carldesin\Desktop\lab3_cannop\LAB03\bài3\obj\Debug\bài3.Form3.resources
