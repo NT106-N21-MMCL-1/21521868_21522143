@@ -22,6 +22,7 @@ namespace bai1
         }
 
         public void SendMessage() { 
+            
             try
             {
             string senderEmail = txtsender.Text;
@@ -40,6 +41,8 @@ namespace bai1
             smtpClient.Send(mail);
 
             MessageBox.Show("Email sent successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtsub.Clear();
+                rtxt.Clear();
             }
             catch (Exception ex)
             {

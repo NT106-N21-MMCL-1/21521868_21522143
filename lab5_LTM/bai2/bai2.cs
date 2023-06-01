@@ -28,6 +28,7 @@ namespace bai2
             {
                 using (var client = new ImapClient())
                 {
+                    dgvContent.Rows.Clear();
                     await client.ConnectAsync("imap.gmail.com", 993, true);
                     client.Authenticate(txtEmail.Text, txtPass.Text);
 
@@ -39,6 +40,7 @@ namespace bai2
                     dgvContent.Columns.Add("Subject", "Email");
                     dgvContent.Columns.Add("From", "From");
                     dgvContent.Columns.Add("Date", "Date");
+                    dgvContent.Columns.Add("body", "Content");
                     //int count = 0;
                     //var item = new ListViewItem();
                     //listView1.Columns.Add("Subject");
@@ -48,7 +50,7 @@ namespace bai2
                     {
                         //count++;
                         var message =await client.Inbox.GetMessageAsync(i);
-                        dgvContent.Rows.Add(message.Subject,message.From, message.Date.ToString());
+                        dgvContent.Rows.Add(message.Subject,message.From, message.Date.ToString(), message.Body);
                         //item.Text = message.From.ToString() ; // Column 1 (Subject)
                         //item.SubItems.Add(message.From.ToString()); // Column 2 (From)
                         //item.SubItems.Add(message.Date.ToString());
