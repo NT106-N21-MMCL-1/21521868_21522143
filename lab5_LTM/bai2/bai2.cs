@@ -30,7 +30,7 @@ namespace bai2
                 {
                     dgvContent.Rows.Clear();
                     await client.ConnectAsync("imap.gmail.com", 993, true);
-                    client.Authenticate(txtEmail.Text, txtPass.Text);
+                    client.Authenticate(txtEmail.Text.Trim(), txtPass.Text.Trim());
 
                     await client.Inbox.OpenAsync(FolderAccess.ReadOnly);
 

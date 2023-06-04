@@ -25,9 +25,9 @@ namespace bai1
             
             try
             {
-            string senderEmail = txtsender.Text;
+            string senderEmail = txtsender.Text.Trim();
            
-            string recipientEmail = txtrec.Text;
+            string recipientEmail = txtrec.Text.Trim();
             string subject = txtsub.Text;
             string body = rtxt.Text;
 

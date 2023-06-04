@@ -28,8 +28,8 @@ namespace bai_3
         private void btnLogin_Click(object sender, EventArgs e)
         {
             dgvContent.Rows.Clear();
-            string username = txtEmail.Text;
-            string password = txtPass.Text;
+            string username = txtEmail.Text.Trim();
+            string password = txtPass.Text.Trim();
             string content = string.Empty;
             //opfdvpbpshlkmhdn
             try
