@@ -66,7 +66,6 @@
             this.txtLimit.Name = "txtLimit";
             this.txtLimit.Size = new System.Drawing.Size(100, 22);
             this.txtLimit.TabIndex = 20;
-            this.txtLimit.TextChanged += new System.EventHandler(this.txtLimit_TextChanged);
             // 
             // dgvContent
             // 

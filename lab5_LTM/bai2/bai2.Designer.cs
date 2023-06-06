@@ -34,7 +34,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.lbLoading = new System.Windows.Forms.Label();
             this.dgvContent = new System.Windows.Forms.DataGridView();
             this.txtLimit = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvContent)).BeginInit();
@@ -100,16 +99,6 @@
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // lbLoading
-            // 
-            this.lbLoading.AutoSize = true;
-            this.lbLoading.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLoading.Location = new System.Drawing.Point(405, 162);
-            this.lbLoading.Name = "lbLoading";
-            this.lbLoading.Size = new System.Drawing.Size(63, 20);
-            this.lbLoading.TabIndex = 2;
-            this.lbLoading.Text = "label1";
-            // 
             // dgvContent
             // 
             this.dgvContent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -135,7 +124,6 @@
             this.Controls.Add(this.txtLimit);
             this.Controls.Add(this.dgvContent);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.lbLoading);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -145,7 +133,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "bai2";
             this.Text = "Bai2";
-            this.Load += new System.EventHandler(this.bai2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvContent)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -159,7 +146,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.Label lbLoading;
         private System.Windows.Forms.DataGridView dgvContent;
         private System.Windows.Forms.TextBox txtLimit;
     }

@@ -36,7 +36,7 @@ namespace bai1
             SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
             smtpClient.UseDefaultCredentials = false;
             smtpClient.EnableSsl = true;
-            smtpClient.Credentials = new NetworkCredential(senderEmail, "atzuznudpqhqpife");
+            smtpClient.Credentials = new NetworkCredential(senderEmail, "uxzdjucburyxtmup");
 
             smtpClient.Send(mail);
 
@@ -53,16 +53,6 @@ namespace bai1
         private void button1_Click(object sender, EventArgs e)
         {
             SendMessage();
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

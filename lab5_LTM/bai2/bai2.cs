@@ -41,21 +41,12 @@ namespace bai2
                     dgvContent.Columns.Add("From", "From");
                     dgvContent.Columns.Add("Date", "Date");
                     dgvContent.Columns.Add("body", "Content");
-                    //int count = 0;
-                    //var item = new ListViewItem();
-                    //listView1.Columns.Add("Subject");
-                    //listView1.Columns.Add("From");
-                    //listView1.Columns.Add("Date");
+
                     for (int i = 0; i < Int32.Parse(txtLimit.Text); i++)
                     {
-                        //count++;
                         var message =await client.Inbox.GetMessageAsync(i);
                         dgvContent.Rows.Add(message.Subject,message.From, message.Date.ToString(), message.Body);
-                        //item.Text = message.From.ToString() ; // Column 1 (Subject)
-                        //item.SubItems.Add(message.From.ToString()); // Column 2 (From)
-                        //item.SubItems.Add(message.Date.ToString());
                     }
-                    //listView1.Items.Add(item);
                     client.Disconnect(true);
                 }
             }
@@ -69,11 +60,6 @@ namespace bai2
         private void btnLogin_Click(object sender, EventArgs e)
         {
             ReceiveMail();
-        }
-
-        private void bai2_Load(object sender, EventArgs e)
-        {
-            
         }
     }
 }

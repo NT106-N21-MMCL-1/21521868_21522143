@@ -20,11 +20,6 @@ namespace bai_3
             InitializeComponent();
         }
 
-        private void txtLimit_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             dgvContent.Rows.Clear();

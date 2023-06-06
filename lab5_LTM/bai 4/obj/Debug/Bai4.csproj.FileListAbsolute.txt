@@ -1,0 +1,68 @@
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\Bai4.exe.config
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\Bai4.exe
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\Bai4.pdb
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\MailKit.dll
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\MimeKit.dll
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\System.Buffers.dll
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\System.Memory.dll
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\MailKit.pdb
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\MailKit.xml
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\MailKit.dll.config
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\MimeKit.pdb
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\MimeKit.xml
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\MimeKit.dll.config
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\System.Buffers.xml
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\System.Memory.xml
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.csproj.AssemblyReference.cache
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.csproj.SuggestedBindingRedirects.cache
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.Bai4.resources
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.Properties.Resources.resources
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.ReadMail.resources
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.SendMail.resources
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.csproj.GenerateResource.cache
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.csproj.CoreCompileInputs.cache
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.csproj.CopyComplete
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.exe
+C:\Users\BaoPC\Downloads\21520458_21520813-main\Lab5\Bai4\obj\Debug\Bai4.pdb
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\Bai4.exe.config
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\Bai4.exe
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\Bai4.pdb
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\BouncyCastle.Cryptography.dll
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\MailKit.dll
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\MimeKit.dll
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\System.Buffers.dll
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\System.Memory.dll
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\System.Numerics.Vectors.dll
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\BouncyCastle.Cryptography.xml
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\MailKit.pdb
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\MailKit.xml
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\MailKit.dll.config
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\MimeKit.pdb
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\MimeKit.xml
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\MimeKit.dll.config
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\System.Buffers.xml
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\System.Memory.xml
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\System.Numerics.Vectors.xml
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\et\21521868_21522143\lab5_LTM\bai 4\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.csproj.AssemblyReference.cache
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.csproj.SuggestedBindingRedirects.cache
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.Bai4.resources
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.Properties.Resources.resources
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.ReadMail.resources
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.SendMail.resources
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.csproj.GenerateResource.cache
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.csproj.CoreCompileInputs.cache
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.csproj.CopyComplete
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.exe
+E:\et\21521868_21522143\lab5_LTM\bai 4\obj\Debug\Bai4.pdb

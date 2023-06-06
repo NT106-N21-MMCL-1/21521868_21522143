@@ -11,3 +11,16 @@ C:\Users\carldesin\Desktop\lab5_LTM\bai 3\obj\Debug\bai3.csproj.CoreCompileInput
 C:\Users\carldesin\Desktop\lab5_LTM\bai 3\obj\Debug\bai3.csproj.CopyComplete
 C:\Users\carldesin\Desktop\lab5_LTM\bai 3\obj\Debug\bai 3.exe
 C:\Users\carldesin\Desktop\lab5_LTM\bai 3\obj\Debug\bai 3.pdb
+E:\et\21521868_21522143\lab5_LTM\bai 3\bin\Debug\bai 3.exe.config
+E:\et\21521868_21522143\lab5_LTM\bai 3\bin\Debug\bai 3.exe
+E:\et\21521868_21522143\lab5_LTM\bai 3\bin\Debug\bai 3.pdb
+E:\et\21521868_21522143\lab5_LTM\bai 3\bin\Debug\OpenPop.dll
+E:\et\21521868_21522143\lab5_LTM\bai 3\obj\Debug\bai3.csproj.AssemblyReference.cache
+E:\et\21521868_21522143\lab5_LTM\bai 3\obj\Debug\bai3.csproj.SuggestedBindingRedirects.cache
+E:\et\21521868_21522143\lab5_LTM\bai 3\obj\Debug\bai_3.bai3.resources
+E:\et\21521868_21522143\lab5_LTM\bai 3\obj\Debug\bai_3.Properties.Resources.resources
+E:\et\21521868_21522143\lab5_LTM\bai 3\obj\Debug\bai3.csproj.GenerateResource.cache
+E:\et\21521868_21522143\lab5_LTM\bai 3\obj\Debug\bai3.csproj.CoreCompileInputs.cache
+E:\et\21521868_21522143\lab5_LTM\bai 3\obj\Debug\bai3.csproj.CopyComplete
+E:\et\21521868_21522143\lab5_LTM\bai 3\obj\Debug\bai 3.exe
+E:\et\21521868_21522143\lab5_LTM\bai 3\obj\Debug\bai 3.pdb
