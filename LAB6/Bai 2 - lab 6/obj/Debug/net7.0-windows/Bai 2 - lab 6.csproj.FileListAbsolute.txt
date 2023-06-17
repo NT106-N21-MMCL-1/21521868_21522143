@@ -1,0 +1,17 @@
+E:\Bai 2 - lab 6\bin\Debug\net7.0-windows\Bai 2 - lab 6.exe
+E:\Bai 2 - lab 6\bin\Debug\net7.0-windows\Bai 2 - lab 6.deps.json
+E:\Bai 2 - lab 6\bin\Debug\net7.0-windows\Bai 2 - lab 6.runtimeconfig.json
+E:\Bai 2 - lab 6\bin\Debug\net7.0-windows\Bai 2 - lab 6.dll
+E:\Bai 2 - lab 6\bin\Debug\net7.0-windows\Bai 2 - lab 6.pdb
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\Bai 2 - lab 6.csproj.AssemblyReference.cache
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\Bai_2___lab_6.Form1.resources
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\Bai 2 - lab 6.csproj.GenerateResource.cache
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\Bai 2 - lab 6.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\Bai 2 - lab 6.AssemblyInfoInputs.cache
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\Bai 2 - lab 6.AssemblyInfo.cs
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\Bai 2 - lab 6.csproj.CoreCompileInputs.cache
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\Bai 2 - lab 6.dll
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\refint\Bai 2 - lab 6.dll
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\Bai 2 - lab 6.pdb
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\Bai 2 - lab 6.genruntimeconfig.cache
+E:\Bai 2 - lab 6\obj\Debug\net7.0-windows\ref\Bai 2 - lab 6.dll
