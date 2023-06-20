@@ -11,3 +11,16 @@ C:\Users\carldesin\Desktop\lab3_cannop\LAB03\Bài1\obj\Debug\Bai1.csproj.Generat
 C:\Users\carldesin\Desktop\lab3_cannop\LAB03\Bài1\obj\Debug\Bai1.csproj.CoreCompileInputs.cache
 C:\Users\carldesin\Desktop\lab3_cannop\LAB03\Bài1\obj\Debug\Bài1.exe
 C:\Users\carldesin\Desktop\lab3_cannop\LAB03\Bài1\obj\Debug\Bài1.pdb
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\bin\Debug\Bài1.exe.config
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\bin\Debug\Bài1.exe
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\bin\Debug\Bài1.pdb
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\obj\Debug\Bai1.csproj.AssemblyReference.cache
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\obj\Debug\Bai1.csproj.SuggestedBindingRedirects.cache
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\obj\Debug\Bài1.ControlPanel.resources
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\obj\Debug\Bài1.UDPClient.resources
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\obj\Debug\Bài1.UDPServer.resources
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\obj\Debug\Bài1.Properties.Resources.resources
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\obj\Debug\Bai1.csproj.GenerateResource.cache
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\obj\Debug\Bai1.csproj.CoreCompileInputs.cache
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\obj\Debug\Bài1.exe
+D:\My study road\Năm 2\Lập trình mạng căn bản\Thực hành\21521868_21522143_BTNhom\LAB03\Bài1\obj\Debug\Bài1.pdb

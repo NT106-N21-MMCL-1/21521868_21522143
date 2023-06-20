@@ -12,6 +12,8 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using LAB03;
 using System.Threading;
+using System.Security.Cryptography;
+using Newtonsoft.Json;
 
 namespace LAB03
 {
@@ -31,6 +33,11 @@ namespace LAB03
 
             IP = new IPEndPoint(IPAddress.Parse(IPServer), 10000);
             client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
+
+            //Socket client;
+            //client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            //client.Send(data.Serialize());
 
             check.Add(name, true);
             CheckForIllegalCrossThreadCalls = false;
@@ -70,15 +77,44 @@ namespace LAB03
             client.Close();
         }
 
+        private string EncryptAES(string VanBan, string khoa)
+        {
+            byte[] encryptedBytes;
+
+            using (Aes aesAlg = Aes.Create())
+            {
+                aesAlg.Key = Encoding.UTF8.GetBytes(khoa);
+                aesAlg.Mode = CipherMode.ECB;
+                aesAlg.Padding = PaddingMode.PKCS7;
+
+                ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
+
+                byte[] plainBytes = Encoding.UTF8.GetBytes(VanBan);
+
+                using (var msEncrypt = new System.IO.MemoryStream())
+                {
+                    using (var csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
+                    {
+                        csEncrypt.Write(plainBytes, 0, plainBytes.Length);
+                    }
+                    encryptedBytes = msEncrypt.ToArray();
+                }
+            }
+
+            return Convert.ToBase64String(encryptedBytes);
+        }
+
         void Send()
         {
             Data data = new Data();
             data.strName = name;
             data.cmdCommand = Command.Message;
-            data.strMessage = textBox1.Text;
+            data.strMessage = txtMessage.Text;
 
+            string serializedData = JsonConvert.SerializeObject(data);
+            string encryptedData = EncryptAES(serializedData, txtEncrypt.Text);
 
-            if (client != null && textBox1.Text != string.Empty)
+            if (client != null && txtMessage.Text != string.Empty)
                 client.Send(data.Serialize());
         }
 
@@ -151,7 +187,7 @@ namespace LAB03
 
         void AddMessage(string s)
         {
-            listView1.Items.Add(new ListViewItem() { Text = s });
+            lstViewShowMessage.Items.Add(new ListViewItem() { Text = s });
         }
 
         private void Client_FormClosed(object sender, FormClosedEventArgs e)
@@ -198,8 +234,8 @@ namespace LAB03
         private void button1_Click_1(object sender, EventArgs e)
         {
             Send();
-            AddMessage("Bạn: " + textBox1.Text);
-            textBox1.Clear();
+            AddMessage("Bạn: " + txtMessage.Text);
+            txtMessage.Clear();
         }
 
         void createTab(string Name)
@@ -226,6 +262,11 @@ namespace LAB03
                 byte[] buffer = data.Serialize();
                 client.Send(buffer);
             }
+        }
+
+        private void Client_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
