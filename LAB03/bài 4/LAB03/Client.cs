@@ -71,7 +71,7 @@ namespace LAB03
                 return;
             }      
         }
-
+//thinh thoang loi connect do mang.
         void close()
         {
             client.Close();
