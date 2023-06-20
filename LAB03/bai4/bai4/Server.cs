@@ -12,8 +12,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Collections;
-using Newtonsoft.Json;
-using System.Security.Cryptography;
 
 namespace LAB03
 {
@@ -37,7 +35,6 @@ namespace LAB03
         List<Socket> clientList;
         List<string> clients = new List<string>();
         Dictionary<string, Socket> clientInfo = new Dictionary<string, Socket>();
-        Thread listen;
 
         void Connect()
         {
@@ -48,7 +45,8 @@ namespace LAB03
 
             server.Bind(IP);
 
-            listen = new Thread(() =>
+
+            Thread listen = new Thread(() =>
             {
                 try
                 {
@@ -70,37 +68,15 @@ namespace LAB03
                 }
             });
 
-
+            listen.IsBackground = true;
+            listen.Start();
         }
 
         void close()
         {
             server.Close();
         }
-        private string DecryptAES(Data encryptedText, string key)
-        {
-            byte[] encryptedBytes = Convert.FromBase64String(encryptedText.ToString());
 
-            using (Aes aesAlg = Aes.Create())
-            {
-                aesAlg.Key = Encoding.UTF8.GetBytes(key);
-                aesAlg.Mode = CipherMode.ECB; 
-                aesAlg.Padding = PaddingMode.PKCS7;
-
-                ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
-
-                using (var msDecrypt = new System.IO.MemoryStream(encryptedBytes))
-                {
-                    using (var csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
-                    {
-                        using (var srDecrypt = new System.IO.StreamReader(csDecrypt))
-                        {
-                            return srDecrypt.ReadToEnd();
-                        }
-                    }
-                }
-            }
-        }
         void Receive(Object obj)
         {
             Socket client = obj as Socket;
@@ -111,10 +87,11 @@ namespace LAB03
                     byte[] buffer = new byte[1024 * 5000];
                     client.Receive(buffer);
 
-                    Data data = new Data(buffer);
-                    string decryptedData = DecryptAES(data, txtEncrypt.Text); 
-                    Data receivedData = JsonConvert.DeserializeObject<Data>(decryptedData);
+                    
 
+                    Data data = new Data(buffer);
+
+                    //MessageBox.Show($"Received data: {data.Serialize().Length}");
 
                     switch (data.cmdCommand)
                     {
@@ -234,22 +211,6 @@ namespace LAB03
         {
             Lab03.isExistServer = false;
            close();
-        }
-
-        private void btnListen_Click(object sender, EventArgs e)
-        {
-            listen.IsBackground = true;
-            listen.Start();
-        }
-
-        private void btnStop_Click(object sender, EventArgs e)
-        {
-            if (listen.IsBackground == true)
-            {
-                listen.IsBackground=false;
-                server.Close();
-            }
-               
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My study road\\Năm 2\\Lập trình mạng căn bản\\Thực hành\\21521868_21522143_BTNhom\\LAB6\\Bai 2 - lab 6\\Bai 2 - lab 6.csproj": {}
+    "C:\\Users\\carldesin\\Desktop\\21521868_21522143\\LAB6\\Bai 2 - lab 6\\Bai 2 - lab 6.csproj": {}
   },
   "projects": {
-    "D:\\My study road\\Năm 2\\Lập trình mạng căn bản\\Thực hành\\21521868_21522143_BTNhom\\LAB6\\Bai 2 - lab 6\\Bai 2 - lab 6.csproj": {
+    "C:\\Users\\carldesin\\Desktop\\21521868_21522143\\LAB6\\Bai 2 - lab 6\\Bai 2 - lab 6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My study road\\Năm 2\\Lập trình mạng căn bản\\Thực hành\\21521868_21522143_BTNhom\\LAB6\\Bai 2 - lab 6\\Bai 2 - lab 6.csproj",
+        "projectUniqueName": "C:\\Users\\carldesin\\Desktop\\21521868_21522143\\LAB6\\Bai 2 - lab 6\\Bai 2 - lab 6.csproj",
         "projectName": "Bai 2 - lab 6",
-        "projectPath": "D:\\My study road\\Năm 2\\Lập trình mạng căn bản\\Thực hành\\21521868_21522143_BTNhom\\LAB6\\Bai 2 - lab 6\\Bai 2 - lab 6.csproj",
+        "projectPath": "C:\\Users\\carldesin\\Desktop\\21521868_21522143\\LAB6\\Bai 2 - lab 6\\Bai 2 - lab 6.csproj",
         "packagesPath": "C:\\Users\\carldesin\\.nuget\\packages\\",
-        "outputPath": "D:\\My study road\\Năm 2\\Lập trình mạng căn bản\\Thực hành\\21521868_21522143_BTNhom\\LAB6\\Bai 2 - lab 6\\obj\\",
+        "outputPath": "C:\\Users\\carldesin\\Desktop\\21521868_21522143\\LAB6\\Bai 2 - lab 6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carldesin\\AppData\\Roaming\\NuGet\\NuGet.Config",
